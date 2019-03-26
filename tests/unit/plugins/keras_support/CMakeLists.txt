@@ -12,7 +12,8 @@ set(tests
     one_hot_operation
     pool_operation
     sigmoid_operation
-    softmax_operation    softplus_operation
+    softmax_operation
+    softplus_operation
    )
 
 foreach(test ${tests})
@@ -36,4 +37,3 @@ foreach(test ${tests})
     ${test}_test_exe)
 
 endforeach()
-
